@@ -1,0 +1,176 @@
+.headercont{
+  
+        background-color: rgb(59, 58, 58);
+      
+  }
+  @keyframes slide-in {
+    from {
+      right: -100px;
+    }
+    to {
+      right: 0;
+    }
+  }
+  .image{
+    display: flex;
+    position: relative;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3 ease;
+    animation: slide-in  2s 1;
+    filter: blur(50%);
+  }
+
+
+
+
+h1{
+   
+    color: aqua;
+}
+
+
+/* projects*/
+
+
+.projects{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+  
+    
+}
+
+.allicons{
+    display: flex;
+    overflow: hidden;
+   
+}
+@keyframes appearicon {
+    from{
+        font-size: 0px;
+        opacity: 0%;
+    }
+    to{
+        font-size: 10rem;
+        opacity: 45%;
+    }
+}
+
+.icons {
+    
+   
+    padding: 3rem;
+    margin: 3rem;
+    width: 100%;
+    font-size: 9rem;
+    position: relative;
+    opacity: 45%;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HEADER*/
+.headercont{
+    position: absolute;
+}
+.header{
+    position: absolute;
+    top: 0%;
+}
+h1{
+    position: absolute;
+    top: 0;
+}
+
+.sliding-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  .sliding-list li {
+    font-size: 3rem;
+    position: relative;
+    
+    animation: slide 6s infinite linear;
+    flex-direction: row;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(1000%);
+    }
+    100% {
+      transform: translateX(-350%);
+    }
+  }
+  
+
+/*Slider*/
+  .slider{
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .slider .slide-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+    
+  }
+
+  .slider .slide{
+    width: 200px;
+
+  }
+  .slider .slide i{
+    width: 100%;
+  }
+  .slide{
+    font-size: 5rem;
+  }
+
+  @keyframes scroll{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-animation: translateX(-200px*7);
+        transform: translateX(calc(-200px*7))
+    }
+  }
+  .slider .slide-track{
+    display: flex;
+    animation: scroll 10s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+    width: calc(200px * 14);
+    
+  }
