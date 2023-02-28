@@ -29,6 +29,11 @@ export const Projects=()=>{
             <i className="fa-brands fa-square-github"></i>
             <i class="fa-brands fa-slack"></i>
             <i class="fa-brands fa-jira"></i>
+            <i class="fa-duotone fa-database"></i>
+            <i class="fa-solid fa-database"></i>
+            <i class="fa-brands fa-node"></i>
+            <i class="fa-brands fa-windows"></i>
+            <i class="fa-brands fa-linux"></i>
       </motion.div>
 
       

@@ -1,6 +1,6 @@
 #root{
-  background: linear-gradient(to bottom, rgb(245, 245, 245), rgb(255, 255, 255));
-  height: 100vh;
+  background: black;
+  height: 100%;
 }
 .App {
   text-align: center;
