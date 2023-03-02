@@ -2,9 +2,12 @@
   background: black;
   height: 100%;
 }
+html{
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
-
+  
 }
 
 .App-logo {

@@ -5,7 +5,7 @@ export const Header=()=>{
     return(
 <div className="marquee">
   <div className="marquee--inner">
-    <span>
+    <span id="span">
       <div className="orb fa-brands fa-react"></div>
       <div className="orb fa-brands fa-square-github"></div>
       <div className="orb fa-brands fa-js"></div>
@@ -21,7 +21,7 @@ export const Header=()=>{
       <div className="orb fa-brands fa-linux"></div>
       
     </span>
-    <span>
+    <span id="span">
     <div className="orb fa-brands fa-react"></div>
       <div className="orb fa-brands fa-square-github"></div>
       <div className="orb fa-brands fa-js"></div>
