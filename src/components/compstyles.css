@@ -27,61 +27,6 @@ h1{
 }
 
 
-/* projects*/
-
-
-.projects{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-  
-    
-}
-
-.allicons{
-    display: flex;
-    overflow: hidden;
-   
-}
-@keyframes appearicon {
-    from{
-        font-size: 0px;
-        opacity: 0%;
-    }
-    to{
-        font-size: 10rem;
-        opacity: 45%;
-    }
-}
-
-.icons {
-    
-   
-    padding: 3rem;
-    margin: 3rem;
-    width: 100%;
-    font-size: 9rem;
-    position: relative;
-    opacity: 45%;
-    padding: 0;
-    overflow: hidden;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -94,10 +39,7 @@ h1{
     position: absolute;
     top: 0%;
 }
-h1{
-    position: absolute;
-    top: 0;
-}
+
 
 .sliding-list {
     display: flex;
@@ -107,14 +49,7 @@ h1{
     overflow: hidden;
   }
   
-  .slide {
-    font-size: 3rem;
-    position: relative;
-    
-    animation: slide 6s infinite linear;
-    flex-direction: row;
-  }
-  
+
   @keyframes slide {
     0% {
       transform: translateX(1000%);
@@ -142,34 +77,9 @@ h1{
     
   }
 
-  .slider .slide{
-    width: 200px;
 
-  }
-  .slider .slide i{
-    width: 100%;
-  }
-  .slide{
-    font-size: 5rem;
-  }
 
-  @keyframes scroll{
-    0%{
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-    100%{
-        -webkit-animation: translateX(-200px*7);
-        transform: translateX(calc(-200px*7))
-    }
-  }
-  .slider .slide-track{
-    display: flex;
-    animation: scroll 10s linear infinite;
-    -webkit-animation: scroll 10s linear infinite;
-    width: calc(200px * 14);
-    
-  }
+
 
 
 
@@ -190,15 +100,9 @@ h1{
     color: blue;
     color: #fff;
     text-shadow:
-      0 0 7px #fff,
-      
-      
+      0 0 7px #fff,  
       0 0 42px #0fa;
-      
-      
-     
-     
-      text-shadow: [x-offset] [y-offset] [blur-radius] [color];
+    text-shadow: [x-offset] [y-offset] [blur-radius] [color];
     border-radius: 50px;
     font-size: 2.5rem;
     display: inline-block;
@@ -207,15 +111,6 @@ h1{
     transition: all .2s ease-out;
     background: none;
   }
-  
-
-  
-  .red {background:red;}
-  .yellow {background:yellow;}
-  .blue {background:blue;}
-  .orange {background:orange;}
-  .purple {background:purple;}
-  .green {background:green;}
   
   .marquee {
     height: 200px;
@@ -226,6 +121,7 @@ h1{
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 4rem;
   }
   
   .marquee--inner {
@@ -233,17 +129,10 @@ h1{
     width: 200%;
     margin: 70px 0;
     position: absolute;
-    animation: marquee 20s linear infinite;
+    animation: marquee 40s linear infinite;
   }
   
- 
-  
-  /*.half {
-    float: left;
-    width: 10%;
-  }*/
-  
-  span {
+  #span {
     float: left;
     width: 50%
   }
@@ -273,6 +162,7 @@ h1{
     box-sizing: border-box;
     position: relative;
     margin: auto;
+   
     margin-bottom: 0;
     
   }
@@ -306,7 +196,7 @@ h1{
   position: absolute;
   left: 20%;
   z-index: 2;
-  top: 35%;
+  top: 75%;
   border-radius: 1rem;
  
   padding-left: 1rem;
@@ -330,8 +220,8 @@ h1{
   transition:all 0.5s;
   position: absolute;
   z-index: 2;
-  top: 35%;
-  right: 15%;
+  top: 75%;
+  right: 20%;
  
   border-radius: 1rem;
   padding-left: 1rem;
@@ -345,20 +235,19 @@ h1{
  h2{
   position:relative;
   z-index: 2;
-  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  background-image: linear-gradient(60deg,  #f3ede5, #0fa);
   background-clip: text;
   color: transparent;
-  left: 30%;
-  top: 10%;
+  font-size: 3.5rem;
  }
 .name{
   text-align: center;
   position: relative;
-  left: 30%;
+  font-size: 4rem;
   z-index: 2;
-  top: 5%;
-  border-radius: 1rem;
-  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  
+  
+  background-image: linear-gradient(60deg,  #f3ede5, #0fa);
   background-clip: text;
   color: transparent;
   padding-left: 1rem;
@@ -369,5 +258,126 @@ h1{
   position: absolute;
   z-index: 2;
   top: 5%;
-  left: 20%;
+  left: 25%;
+  
+ 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ABOUT ME*/
+.screen{
+  background-color: #000000;
+  height: 100%;
+  
+}
+.header-aboutme{
+  height: 30rem;
+  width: 50rem;
+  background: none;
+  border: .5px solid #0fa;
+  opacity: 90%;
+  padding: 1rem;
+  border-radius: 2%;
+  margin-right: 15rem;
+  
+  
+}
+.header-aboutme p{
+  color: rgb(255, 255, 255);
+  opacity: 100%!important;
+  box-sizing: border-box;
+  padding: 1rem;
+  
+  
+}
+.buttons{
+  margin-top: 4rem;
+}
+.buttons span{
+  font-size: 1.5rem;
+}
+.buttons span::after{
+  content:"";
+  width:7rem;
+  height: 1px;
+  background-color: #0fa;
+  display: block;
+}
+.skills{
+  margin-top: 10rem;
+}
+.about-title{
+  text-align: center;
+}
+.about-title h1{
+  color: #0fa;
+}
+.skill{
+  padding: 1rem;
+  color: #fff;
+  height: 30rem;
+  width: 25rem;
+  border: .5px solid #0fa;
+  border-radius: 2%;
+  margin: auto;
+}
+.skill h3{
+  text-align: center;
+}
+
+
+
+.car-holder{
+  max-width: 40%;
+  margin: auto;
+}
+.projects{
+  margin-top: 5rem;
+  text-align: center;
+  
+}
+.project{
+  border: 1px solid #0fa;
+  border-radius: 5px;
+  max-width: 40%;
+  margin: auto;
+  
+}
+.text{
+  font-size: .8rem;
+  color: #fff;
+  max-width: 50%;
+}
+.buttons-project{
+  margin-top: 1rem;
+  justify-content: space-around;
+  margin-bottom: .5rem;
+
+}
+.button-project{
+  
+  font-family: "Balsamiq Sans";
+  text-decoration: none;
+  color: #0fa;
+  border: #0fa 2px solid;
+  background-color:transparent;
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.3em 0 #0fa, 0 0 0.3em 0 #0fa;
+  transition:all 0.5s;
+}
+.button-project:hover{
+  background-color:#0fa;
+  color:#000000;
+ }
