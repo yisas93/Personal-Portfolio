@@ -27,7 +27,7 @@ If you're interested in learning more about my experience and how I can help wit
             className="buttons d-grid"
             >
                 <a href="#skillscont"><span style={{color:"white"}}>•Skills</span></a>
-                <span style={{color:"white"}}>•Projects</span>
+                <a href="#projects"><span style={{color:"white"}}>•Projects</span></a>
                 <span style={{color:"white"}}>•Resume</span>
                 
             </motion.div>
@@ -64,13 +64,13 @@ If you're interested in learning more about my experience and how I can help wit
         </div>
 
 
-        <div className="projects">
+        <div className="projects" id="projects">
           <h1>Projects</h1>
 
             <div className="d-flex">
             <div className="project" >
                 <div className="d-flex">
-                  <div className="car-holder" style={{border: "1px solid blue"}}>
+                  <div className="car-holder">
                 <div id="carouselExampleControlsNoTouching1" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -93,7 +93,7 @@ If you're interested in learning more about my experience and how I can help wit
                   </button>
                 </div>
                   </div>
-                  <div className="text" style={{border:"1px solid red"}}>
+                  <div className="text" >
                   <h1>Sozial</h1>
                   <p>An ecommerce app that combines the functionality of a traditional online store with social media features
                     , the app offers a variety of features that enhance the shopping and social media experience. For example 
@@ -104,11 +104,12 @@ If you're interested in learning more about my experience and how I can help wit
                   </div>
                   <div className="d-flex buttons-project">
                     <button className="button-project">Visit</button>
-                    <button className="button-project">Source Code</button>
+                    <a href="https://github.com/Alvarojavier22/Proyecto-Sozial"><button className="button-project">Source Code</button></a>
                   
                   </div>
               </div>
               <div className="project">
+                <div className="d-flex">
                 <div className="car-holder">
                   <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                     <div class="carousel-inner">
@@ -131,6 +132,20 @@ If you're interested in learning more about my experience and how I can help wit
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
+                </div>
+                <div className="text">
+                  <h1>Star Wars Blog</h1>
+                  <p>I developed a Star Wars blog using React and fetched data from a public Star Wars API
+                     to display information about characters, films, and planets. The blog features a clean 
+                     and intuitive UI with responsive design for optimal viewing on various devices. By utilizing 
+                     React components and props, the app efficiently renders data in a modular and reusable manner.
+                      With this project, I gained experience working with API integrations, React functional components, 
+                      and state management."
+                  </p>
+                </div>
+                </div>
+                <div className="d-flex buttons-project">
+                  <a href="https://github.com/yisas93/star-wars-blog"><button className="button-project">Source Code</button></a>
                 </div>
               </div>
             </div>
