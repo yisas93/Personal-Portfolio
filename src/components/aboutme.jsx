@@ -1,6 +1,14 @@
 import React, {useRef} from "react";
 import { motion } from "framer-motion";
+import sozial1 from "../img/sozial1.jpg"
+import sozial2 from "../img/sozial2.jpg"
+import sozial3 from "../img/sozial3.jpg"
 import sozial4 from "../img/sozial4.jpg"
+import starwars1 from "../img/starwars1.png"
+import starwars2 from "../img/starwars2.png"
+import starwars3 from "../img/starwars3.png"
+import starwars4 from "../img/starwars4.png"
+import starwars5 from "../img/starwars5.png"
 export const AboutMe=()=>{
     
     return(
@@ -77,10 +85,10 @@ If you're interested in learning more about my experience and how I can help wit
                       <img src={sozial4}  class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                      <img src={sozial4}  class="d-block w-100" alt="..."/>
+                      <img src={sozial1}  class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                      <img src={sozial4} class="d-block w-100" alt="..."/>
+                      <img src={sozial3} class="d-block w-100" alt="..."/>
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="prev">
@@ -109,18 +117,18 @@ If you're interested in learning more about my experience and how I can help wit
                   </div>
               </div>
               <div className="project">
-                <div className="d-flex">
+                <div className="">
                 <div className="car-holder">
                   <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src={sozial4}  class="d-block w-100" alt="..."/>
+                      <div class="carousel-item active ">
+                        <img src={starwars1}  className="d-block w-100 starimg" alt="..."/>
                       </div>
                       <div class="carousel-item">
-                        <img src={sozial4}  class="d-block w-100" alt="..."/>
+                        <img src={starwars2}  className="d-block w-100 starimg" alt="..."/>
                       </div>
                       <div class="carousel-item">
-                        <img src={sozial4}  class="d-block w-100" alt="..."/>
+                        <img src={starwars3}  className="d-block w-100 starimg" alt="..."/>
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
@@ -133,7 +141,7 @@ If you're interested in learning more about my experience and how I can help wit
                     </button>
                   </div>
                 </div>
-                <div className="text">
+                <div className="text2">
                   <h1>Star Wars Blog</h1>
                   <p>I developed a Star Wars blog using React and fetched data from a public Star Wars API
                      to display information about characters, films, and planets. The blog features a clean 

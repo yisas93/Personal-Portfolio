@@ -168,7 +168,7 @@ h1{
   }
   @keyframes image {
     0% { top: 0; }
-    100% { top: -900%; }
+    100% { top: -500%; }
   }
 
   .inner-image2 {
@@ -381,6 +381,10 @@ h1{
   max-width: 48%;
   margin: auto;
 }
+.text2{
+  font-size: .8rem;
+  color: #fff;
+}
 .buttons-project{
   margin-top: 1rem;
   justify-content: space-around;
@@ -388,7 +392,6 @@ h1{
 
 }
 .button-project{
-  
   font-family: "Balsamiq Sans";
   text-decoration: none;
   color: #0fa;
@@ -408,9 +411,12 @@ h1{
  .buttons a{
   text-decoration: none;
  }
+.starimg{
+  height: 10rem;
+}
+.carousel-item{
 
-
-
+}
 
 
 
