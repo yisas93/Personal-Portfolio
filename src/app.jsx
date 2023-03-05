@@ -58,14 +58,8 @@ function App() {
 
       <div><About/></div>
       <div><Header/></div>
-      <div className="contactme">
-      <ContactMe
+      
    
-       trigger={trigger} 
-       setTrigger={setTrigger}>
-
-      </ContactMe>
-      </div>
     </div>
   );
 }
