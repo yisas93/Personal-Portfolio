@@ -60,6 +60,7 @@ If you're interested in learning more about my experience and how I can help wit
                     <span>• Flask</span>
                     <span>• SQLAlchemy</span>
                     <span>• Nodejs</span>
+                    <span>MySQL</span>
                 </div>
                 <div className="skill d-grid">
                     <h3>Other skills</h3>
@@ -79,25 +80,25 @@ If you're interested in learning more about my experience and how I can help wit
             <div className="project" >
                 <div className="d-flex">
                   <div className="car-holder">
-                <div id="carouselExampleControlsNoTouching1" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src={sozial4}  class="d-block w-100" alt="..."/>
+                <div id="carouselExampleControlsNoTouching1" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                  <div className="carousel-inner">
+                    <div className="carousel-item active sozialimg">
+                      <img src={sozial4}  className="d-block w-100 " alt="..."/>
                     </div>
-                    <div class="carousel-item">
-                      <img src={sozial1}  class="d-block w-100" alt="..."/>
+                    <div className="carousel-item sozialimg">
+                      <img src={sozial1}  className="d-block w-100 " alt="..."/>
                     </div>
-                    <div class="carousel-item">
-                      <img src={sozial3} class="d-block w-100" alt="..."/>
+                    <div className="carousel-item sozialimg">
+                      <img src={sozial3} className="d-block w-100 " alt="..."/>
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
                   </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
                   </button>
                 </div>
                   </div>
@@ -119,25 +120,25 @@ If you're interested in learning more about my experience and how I can help wit
               <div className="project">
                 <div className="">
                 <div className="car-holder">
-                  <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active ">
+                  <div id="carouselExampleControlsNoTouching2" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                    <div className="carousel-inner">
+                      <div className="carousel-item active ">
                         <img src={starwars1}  className="d-block w-100 starimg" alt="..."/>
                       </div>
-                      <div class="carousel-item">
+                      <div className="carousel-item">
                         <img src={starwars2}  className="d-block w-100 starimg" alt="..."/>
                       </div>
-                      <div class="carousel-item">
+                      <div className="carousel-item">
                         <img src={starwars3}  className="d-block w-100 starimg" alt="..."/>
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
+                      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="next">
+                      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span className="visually-hidden">Next</span>
                     </button>
                   </div>
                 </div>
@@ -162,25 +163,25 @@ If you're interested in learning more about my experience and how I can help wit
               <div className="project" >
                 <div className="d-flex">
                   <div className="car-holder" style={{border: "1px solid blue"}}>
-                <div id="carouselExampleControlsNoTouching3" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src={sozial4}  class="d-block w-100" alt="..."/>
+                <div id="carouselExampleControlsNoTouching3" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                  <div className="carousel-inner">
+                    <div className="carousel-item active">
+                      <img src={sozial4}  className="d-block w-100" alt="..."/>
                     </div>
-                    <div class="carousel-item">
-                      <img src={sozial4}  class="d-block w-100" alt="..."/>
+                    <div className="carousel-item">
+                      <img src={sozial4}  className="d-block w-100" alt="..."/>
                     </div>
-                    <div class="carousel-item">
-                      <img src={sozial4} class="d-block w-100" alt="..."/>
+                    <div className="carousel-item">
+                      <img src={sozial4} className="d-block w-100" alt="..."/>
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
                   </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
                   </button>
                 </div>
                   </div>
@@ -200,25 +201,25 @@ If you're interested in learning more about my experience and how I can help wit
               
               <div className="project">
                 <div className="car-holder">
-<div id="carouselExampleControlsNoTouching4" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={sozial4}  class="d-block w-100" alt="..."/>
+<div id="carouselExampleControlsNoTouching4" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={sozial4}  className="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item">
-      <img src={sozial4}  class="d-block w-100" alt="..."/>
+    <div className="carousel-item">
+      <img src={sozial4}  className="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item">
-      <img src={sozial4}  class="d-block w-100" alt="..."/>
+    <div className="carousel-item">
+      <img src={sozial4}  className="d-block w-100" alt="..."/>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
                 </div>

@@ -5,7 +5,7 @@ import { Projects } from './components/projects.jsx';
 import { About}  from './components/about';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import { ContactMe } from './components/contactme';
+
 function App() {
   const[trigger, setTrigger]=useState(false)
   const handleTrigger=(trigger)=>{

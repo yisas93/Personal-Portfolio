@@ -51,25 +51,6 @@ html{
 
 
 
-.slider{
-  width: 75%;
-  height: auto;
-  margin: auto;
-  overflow: hidden;
-}
 
-.slider .slide-track{
-  display: flex;
-  animation: scroll 40s linear infinite;
-  width: calc(200px * 14);
-  -webkit-animation: scroll 40s linear infinite;
-}
 
-.slider .slide{
-  width: 200px;
-
-}
-.slider .slide i{
-  width: 100%;
-}
 

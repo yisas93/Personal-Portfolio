@@ -41,14 +41,7 @@ h1{
 }
 
 
-.sliding-list {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    overflow: hidden;
-  }
-  
+
 
   @keyframes slide {
     0% {
@@ -60,22 +53,7 @@ h1{
   }
   
 
-/*Slider*/
-  .slider{
-    width: 75vw;
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-    white-space: nowrap;
-  }
 
-  .slider .slide-track{
-    display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
-    width: calc(200px * 14);
-    
-  }
 
 
 
@@ -107,13 +85,12 @@ h1{
     font-size: 2.5rem;
     display: inline-block;
     margin: 0 24.7px;
-    float: left;
     transition: all .2s ease-out;
     background: none;
   }
   
   .marquee {
-    height: 200px;
+    height: 157px;
     width: 1000px;
     
     overflow: hidden;
@@ -414,9 +391,7 @@ h1{
 .starimg{
   height: 10rem;
 }
-.carousel-item{
 
-}
 
 
 
@@ -442,4 +417,52 @@ h1{
  }
  .contactme h4{
   color: #fff;
+ }
+
+
+
+
+
+
+
+
+ @media(max-width: 1000px) {
+  .image-holder {
+    height: 300px;
+    width: 600px;
+  }
+  .contact{
+    top: 70%;
+  }
+  .about{
+    top: 70%;
+   }
+   .marquee {
+    height: 160px;
+    width: 900px;
+    
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+    .orb {
+    width: 40px;
+    height: 40px;
+    color: blue;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,  
+      0 0 42px #0fa;
+    text-shadow: [x-offset] [y-offset] [blur-radius] [color];
+    border-radius: 50px;
+    font-size: 2.5rem;
+    display: inline-block;
+    margin: 0 24.7px;
+    transition: all .2s ease-out;
+    background: none;
+  }
+  
  }
