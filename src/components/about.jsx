@@ -8,10 +8,14 @@ import starwars2 from "../img/starwars2.png"
 import starwars3 from "../img/starwars3.png"
 import starwars4 from "../img/starwars4.png"
 import starwars5 from "../img/starwars5.png"
+import chatapp1 from "../img/chatapp1.jpg"
+import chatapp2 from "../img/chatapp2.jpg"
+import chatapp3 from "../img/chatapp3.jpg"
+import chatapp4 from "../img/chatapp4.jpg"
 export const About=()=>{
 console.log(sozial1)
     return(
-        <div className="container d-flex">
+        <div className="container d-flex holdimages">
         <div className="image-holder">
             <div className="inner-image">
                 <div><img src={sozial1} style={{maxWidth: "300px"}} alt="" />
@@ -29,8 +33,8 @@ console.log(sozial1)
 
             
         </div>
-        <div className="image-holder">
-            <div className="inner-image2">
+        <div className="image-holder d-lg-block d-none">
+            <div className="inner-image2 ">
                 <div><img src={sozial1} style={{maxWidth: "300px"}} alt="" />
                 </div>
                 <div><img src={starwars2} style={{maxWidth: "300px"}}  alt="" /></div>
@@ -47,18 +51,18 @@ console.log(sozial1)
 
             
         </div>
-        <div className="image-holder">
+        <div className="image-holder d-md-block d-none">
             <div className="inner-image">
-                <div><img src={sozial1} style={{maxWidth: "300px"}} alt="" />
+                <div><img src={chatapp1} style={{maxWidth: "300px "}} alt="" />
                 </div>
-                <div><img src={sozial2} style={{maxWidth: "300px"}}  alt="" /></div>
-                <div><img src={sozial3} style={{maxWidth: "300px"}} alt="" /></div>
-                <div><img src={sozial4} style={{maxWidth: "300px"}} alt="" /></div>
-                <div><img src={sozial1} style={{maxWidth: "300px"}} alt="" />
+                <div><img src={chatapp3} style={{maxWidth: "300px"}}  alt="" /></div>
+                <div><img src={chatapp2} style={{maxWidth: "300px"}} alt="" /></div>
+                <div><img src={chatapp4} style={{maxWidth: "300px"}} alt="" /></div>
+                <div><img src={chatapp1} style={{maxWidth: "300px"}} alt="" />
                 </div>
-                <div><img src={sozial2} style={{maxWidth: "300px"}}  alt="" /></div>
-                <div><img src={sozial3} style={{maxWidth: "300px"}} alt="" /></div>
-                <div><img src={sozial4} style={{maxWidth: "300px"}} alt="" /></div>
+                <div><img src={chatapp3} style={{maxWidth: "300px"}}  alt="" /></div>
+                <div><img src={chatapp2} style={{maxWidth: "300px"}} alt="" /></div>
+                <div><img src={chatapp2} style={{maxWidth: "300px"}} alt="" /></div>
                 </div>           
 
             

@@ -9,6 +9,13 @@ import starwars2 from "../img/starwars2.png"
 import starwars3 from "../img/starwars3.png"
 import starwars4 from "../img/starwars4.png"
 import starwars5 from "../img/starwars5.png"
+import chatapp1 from "../img/chatapp1.jpg"
+import chatapp2 from "../img/chatapp2.jpg"
+import chatapp3 from "../img/chatapp3.jpg"
+import chatapp4 from "../img/chatapp4.jpg"
+import todo1 from "../img/todo1.jpg"
+import todo2 from "../img/todo2.jpg"
+import todo3 from "../img/todo3.jpg"
 export const AboutMe=()=>{
     
     return(
@@ -34,9 +41,9 @@ If you're interested in learning more about my experience and how I can help wit
               }}
             className="buttons d-grid"
             >
-                <a href="#skillscont"><span style={{color:"white"}}>•Skills</span></a>
-                <a href="#projects"><span style={{color:"white"}}>•Projects</span></a>
-                <span style={{color:"white"}}>•Resume</span>
+                <a href="#skillscont"><span style={{color:"white"}}>• Skills</span></a>
+                <a href="#projects"><span style={{color:"white"}}>• Projects</span></a>
+              
                 
             </motion.div>
 </div>
@@ -60,7 +67,7 @@ If you're interested in learning more about my experience and how I can help wit
                     <span>• Flask</span>
                     <span>• SQLAlchemy</span>
                     <span>• Nodejs</span>
-                    <span>MySQL</span>
+                    <span>• MySQL</span>
                 </div>
                 <div className="skill d-grid">
                     <h3>Other skills</h3>
@@ -117,7 +124,49 @@ If you're interested in learning more about my experience and how I can help wit
                   
                   </div>
               </div>
-              <div className="project">
+              <div className="project" >
+                <div className="d-flex">
+                  <div className="car-holder" style={{border: "1px solid blue"}}>
+                <div id="carouselExampleControlsNoTouching3" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                  <div className="carousel-inner">
+                    <div className="carousel-item active">
+                      <img src={chatapp1}  className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
+                      <img src={chatapp2}  className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
+                      <img src={chatapp4} className="d-block w-100" alt="..."/>
+                    </div>
+                  </div>
+                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
+                  </div>
+                  <div className="text" >
+                  <h1>Chat-app</h1>
+                  <p>A chat app in which I used react.js for the front-end and Node.js and socket.Io for the backend and handling 
+                    real-time communication between users, the objective for developing this chat was to hone my skills in front/ back-end development as well as
+                    showcase my abilities to work with real-time data  
+                  </p>
+                  </div>
+                  </div>
+                  <div className="d-flex buttons-project">
+
+                    <button className="button-project">Source Code</button>
+                  
+                  </div>
+              </div>
+            </div>
+           
+            <div className="d-flex mt-2">
+            <div className="project">
                 <div className="">
                 <div className="car-holder">
                   <div id="carouselExampleControlsNoTouching2" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -157,72 +206,52 @@ If you're interested in learning more about my experience and how I can help wit
                   <a href="https://github.com/yisas93/star-wars-blog"><button className="button-project">Source Code</button></a>
                 </div>
               </div>
-            </div>
-           
-            <div className="d-flex mt-2">
+              
+              
               <div className="project" >
                 <div className="d-flex">
                   <div className="car-holder" style={{border: "1px solid blue"}}>
-                <div id="carouselExampleControlsNoTouching3" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div id="carouselExampleControlsNoTouching4" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img src={sozial4}  className="d-block w-100" alt="..."/>
+                      <img src={todo1}  className="d-block w-100" alt="..."/>
                     </div>
                     <div className="carousel-item">
-                      <img src={sozial4}  className="d-block w-100" alt="..."/>
+                      <img src={todo2}  className="d-block w-100" alt="..."/>
                     </div>
                     <div className="carousel-item">
-                      <img src={sozial4} className="d-block w-100" alt="..."/>
+                      <img src={todo3} className="d-block w-100" alt="..."/>
                     </div>
                   </div>
-                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
+                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                   </button>
-                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
+                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                   </button>
                 </div>
                   </div>
-                  <div className="text" style={{border:"1px solid red"}}>
-                  <h1>Sozial</h1>
-                  <p>An ecommerce app that combines the functionality of a traditional online store with social media features
-                    , the app offers a variety of features that enhance the shopping and social media experience. For example users can save items to their whishlists. Overall, the app offers a unique and engaging platform for users to discover, shop and connect with others
+                  <div className="text" >
+                  <h1>Todo-List</h1>
+                  <p>This Todo list app that was built using React and the Fetch API.
+
+The app itself is a simple yet powerful tool for keeping track of all your tasks and to-dos in one place. With just a few clicks, you can add new tasks, edit existing ones, mark them as complete, and even delete them if necessary.
+This app uses React, a popular JavaScript library for building user interfaces. React allowed me to create a highly dynamic and interactive app that responds to user input in real-time, making it a joy to use.
+
+In addition, the app also uses the Fetch API to communicate with a backend server, allowing for seamless data retrieval and updating. 
+
+
+
                   </p>
                   </div>
                   </div>
                   <div className="d-flex buttons-project">
-                    <button>Visit</button>
-                    <button>Source Code</button>
+
+                    <button className="button-project">Source Code</button>
                   
                   </div>
-              </div>
-              
-              <div className="project">
-                <div className="car-holder">
-<div id="carouselExampleControlsNoTouching4" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={sozial4}  className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={sozial4}  className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={sozial4}  className="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching4" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-                </div>
               </div>
             </div>
         </div>

@@ -430,39 +430,182 @@ h1{
   .image-holder {
     height: 300px;
     width: 600px;
+    margin: auto;
   }
   .contact{
-    top: 70%;
+    top: 80%;
   }
   .about{
-    top: 70%;
+    top: 80%;
    }
    .marquee {
     height: 160px;
-    width: 900px;
+    width: 600px;
     
-    overflow: hidden;
-    box-sizing: border-box;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
+   
   }
     .orb {
-    width: 40px;
-    height: 40px;
-    color: blue;
-    color: #fff;
-    text-shadow:
-      0 0 7px #fff,  
-      0 0 42px #0fa;
-    text-shadow: [x-offset] [y-offset] [blur-radius] [color];
-    border-radius: 50px;
-    font-size: 2.5rem;
-    display: inline-block;
-    margin: 0 24.7px;
-    transition: all .2s ease-out;
-    background: none;
+    width: 10px;
+    height: 10px;
+    
   }
+  .image-holder {
+    height: 400px;
+    width: 500px;
+    
+  }
+
+  .name{
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    z-index: 2.5;
+    
+    
+    
   
+  }
+  h2{
+    position:relative;
+    z-index: 2;
+    background-image: linear-gradient(60deg,  #f3ede5, #0fa);
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+   }
  }
+
+
+
+
+@media(max-width:800px){
+  .image-holder {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+  }
+  .contact{
+    top: 80%;
+  }
+  .about{
+    top: 80%;
+   }
+   .marquee {
+    height: 160px;
+    width: 600px;
+    
+   
+  }
+    .orb {
+    width: 10px;
+    height: 10px;
+    
+  }
+  .image-holder {
+    height: 400px;
+    width: 500px;
+    
+  }
+
+  .name{
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    z-index: 2.5;
+    
+    
+    
+  
+  }
+  h2{
+    position:relative;
+    z-index: 2;
+    background-image: linear-gradient(60deg,  #f3ede5, #0fa);
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+   
+}
+.inner-image{
+  margin: auto;
+  left: 20%;
+}
+}
+
+
+@media(max-width:500px){
+  .image-holder {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+  }
+  .contact{
+   
+     
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #0fa;
+  border: #0fa 3px solid;
+  background-color:transparent;
+  border-radius: 0.25em;
+
+  transition:all 0.5s;
+  position: absolute;
+  z-index: 2;
+  top: 70%;
+  right: 10%;
+ 
+ 
+}
+  
+  .about{
+    top: 70%;
+    font-size: 1.5rem;
+    left: 10%;
+   }
+   .marquee {
+    height: 160px;
+    width: 300px;
+    
+   
+  }
+    .orb {
+    width: 1px;
+    height: 1px;
+    
+  }
+  .image-holder {
+    height: 400px;
+    width: 500px;
+    
+  }
+
+  .name{
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    z-index: 2.5;
+    margin: auto;
+    
+    
+    
+  
+  }
+  h2{
+    position:relative;
+    z-index: 2;
+    background-image: linear-gradient(60deg,  #f3ede5, #0fa);
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+   
+}
+.inner-image{
+  margin: auto;
+  left: 10%;
+}
+.title{
+  top: 1%;
+  left: 1%;
+}
+}
