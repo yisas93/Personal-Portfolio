@@ -83,7 +83,7 @@ If you're interested in learning more about my experience and how I can help wit
         <div className="projects" id="projects">
           <h1>Projects</h1>
 
-            <div className="d-flex">
+            <div className="d-sm-grid d-md-flex">
             <div className="project" >
                 <div className="d-flex">
                   <div className="car-holder">
@@ -119,12 +119,12 @@ If you're interested in learning more about my experience and how I can help wit
                   </div>
                   </div>
                   <div className="d-flex buttons-project">
-                    <button className="button-project">Visit</button>
+                    
                     <a href="https://github.com/Alvarojavier22/Proyecto-Sozial"><button className="button-project">Source Code</button></a>
                   
                   </div>
               </div>
-              <div className="project" >
+              <div className="project mt-3" >
                 <div className="d-flex">
                   <div className="car-holder" style={{border: "1px solid blue"}}>
                 <div id="carouselExampleControlsNoTouching3" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -165,7 +165,7 @@ If you're interested in learning more about my experience and how I can help wit
               </div>
             </div>
            
-            <div className="d-flex mt-2">
+            <div className="d-sm-grid d-md-flex mt-3">
             <div className="project">
                 <div className="">
                 <div className="car-holder">
@@ -208,7 +208,7 @@ If you're interested in learning more about my experience and how I can help wit
               </div>
               
               
-              <div className="project" >
+              <div className="project mt-3" >
                 <div className="d-flex">
                   <div className="car-holder" style={{border: "1px solid blue"}}>
                 <div id="carouselExampleControlsNoTouching4" className="carousel slide" data-bs-touch="false" data-bs-interval="false">

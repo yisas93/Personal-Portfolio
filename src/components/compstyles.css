@@ -609,3 +609,133 @@ h1{
   left: 1%;
 }
 }
+
+
+
+
+
+
+
+
+
+
+/* about me medias*/
+@media(max-width: 700px){
+  .screen{
+    background-color: #000000;
+    height: 100%;
+    
+  }
+  .header-aboutme{
+    height: 50rem;
+    width: 20rem;
+   
+    margin-right: .2rem;
+    
+    
+  }
+  .header-aboutme p{
+    color: rgb(255, 255, 255);
+    opacity: 100%!important;
+    box-sizing: border-box;
+    font-size: 1rem;
+    
+    
+  }
+  .buttons{
+    margin-top: 4rem;
+    overflow: hidden;
+  }
+  .buttons span{
+    font-size: 1.5rem;
+  }
+  .buttons span::after{
+    content:"";
+    width:7rem;
+    height: 1px;
+    background-color: #0fa;
+    display: block;
+  }
+  .skills{
+    margin-top: 10rem;
+  }
+  .about-title{
+    text-align: center;
+  }
+  .about-title h1{
+    color: #0fa;
+  }
+  .skill{
+    padding: 1rem;
+    color: #fff;
+    height: 30rem;
+    width: 25rem;
+    border: .5px solid #0fa;
+    border-radius: 2%;
+    margin: auto;
+  }
+  .skill h3{
+    text-align: center;
+  }
+  
+  
+  
+  .car-holder{
+    max-width: 40%;
+    margin: auto;
+  }
+  .projects{
+    margin-top: 5rem;
+    text-align: center;
+    display: grid;
+    
+  }
+  .project{
+    border: 1px solid #0fa;
+    border-radius: 5px;
+    max-width: 70%;
+    margin: auto;
+    
+  }
+  .text{
+    font-size: .8rem;
+    color: #fff;
+    max-width: 48%;
+    margin: auto;
+  }
+  .text2{
+    font-size: .8rem;
+    color: #fff;
+  }
+  .buttons-project{
+    margin-top: 1rem;
+    justify-content: space-around;
+    margin-bottom: .5rem;
+  
+  }
+  .button-project{
+    font-family: "Balsamiq Sans";
+    text-decoration: none;
+    color: #0fa;
+    border: #0fa 2px solid;
+    background-color:transparent;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.3em 0 #0fa, 0 0 0.3em 0 #0fa;
+    transition:all 0.5s;
+    
+  }
+  .button-project:hover{
+    background-color:#0fa;
+    color:#000000;
+    
+   }
+   .buttons a{
+    text-decoration: none;
+   }
+  .starimg{
+    height: 10rem;
+  }
+  
+  
+}

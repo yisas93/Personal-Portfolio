@@ -4,7 +4,7 @@
 }
 @media(max-width:500px){
   #root{
-    height: 100vh;
+    height: 100%;
   }
 }
 html{
@@ -49,8 +49,6 @@ html{
     transform: rotate(360deg);
   }
 }
-
-
 
 
 
