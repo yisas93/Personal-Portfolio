@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React  from "react";
 import { motion } from "framer-motion";
 import sozial1 from "../img/sozial1.jpg"
 import sozial2 from "../img/sozial2.jpg"
