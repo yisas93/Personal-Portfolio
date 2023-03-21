@@ -5,11 +5,12 @@ import App from './app.jsx';
 import { AboutMe } from './components/aboutme';
 import reportWebVitals from './reportWebVitals';
 import {
+  HashRouter,
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = HashRouter([
   {
     path: "/",
     element: <App/>,
