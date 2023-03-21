@@ -542,7 +542,7 @@ h1{
   .contact{
    
      
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
   color: #0fa;
   border: #0fa 3px solid;
@@ -560,14 +560,19 @@ h1{
   
   .about{
     top: 70%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     left: 10%;
    }
    .marquee {
-    height: 160px;
+    height: 200px;
     width: 300px;
-    
-   
+    background: black;
+    margin-bottom: 0;
+  }
+  .marquee--inner{
+    background: black;
+    height: 100%;
+    margin-bottom: auto;
   }
     .orb {
     width: 1px;
@@ -608,6 +613,7 @@ h1{
   top: 1%;
   left: 1%;
 }
+
 }
 
 
