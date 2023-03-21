@@ -10,9 +10,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-const router = HashRouter([
+const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Personal-Portfolio",
     element: <App/>,
   },
   {path: "/aboutme",
