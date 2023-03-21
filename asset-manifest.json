@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.93b330be.css",
+    "main.css": "/Personal-Portfolio/static/css/main.cdf65320.css",
     "main.js": "/Personal-Portfolio/static/js/main.c5ca5738.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/starwars5.png": "/Personal-Portfolio/static/media/starwars5.8ea24fc4aa5cc1746b36.png",
@@ -20,12 +20,12 @@
     "static/media/todo3.jpg": "/Personal-Portfolio/static/media/todo3.dd76b693908a2b58b40b.jpg",
     "static/media/chatapp2.jpg": "/Personal-Portfolio/static/media/chatapp2.8bc071bb9351777b7d53.jpg",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.93b330be.css.map": "/Personal-Portfolio/static/css/main.93b330be.css.map",
+    "main.cdf65320.css.map": "/Personal-Portfolio/static/css/main.cdf65320.css.map",
     "main.c5ca5738.js.map": "/Personal-Portfolio/static/js/main.c5ca5738.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93b330be.css",
+    "static/css/main.cdf65320.css",
     "static/js/main.c5ca5738.js"
   ]
 }
