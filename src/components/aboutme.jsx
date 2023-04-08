@@ -59,15 +59,21 @@ If you're interested in learning more about my experience and how I can help wit
                     <span>• HTML5</span>
                     <span>• CSS3</span>
                     <span>• Bootstrap</span>
-                    <span>• Reactjs</span>
+                    <span>• React.js</span>
                 </div>
                 <div className="skill d-grid">
                     <h3>Back-end</h3>
                     <span>• Python</span>
                     <span>• Flask</span>
-                    <span>• SQLAlchemy</span>
-                    <span>• Nodejs</span>
-                    <span>• MySQL</span>
+                    <span>• DJango</span>
+                    <span>• Node.js</span>
+                   
+                </div>
+                <div className="skill d-grid">
+                  <h3>Database</h3>
+                  <span>• MySQL</span>
+                  <span>• PostgreSQL</span>
+                  <span>• SQLAlchemy</span>
                 </div>
                 <div className="skill d-grid">
                     <h3>Other skills</h3>
@@ -76,6 +82,7 @@ If you're interested in learning more about my experience and how I can help wit
                     <span>• Jira</span>
                     <span>• Framer-Motion</span>
                 </div>
+               
             </motion.div>
         </div>
 
