@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './app.jsx';
-import { AboutMe } from './components/aboutme';
+import {App} from './app.jsx';
+
 import reportWebVitals from './reportWebVitals';
 import {
   HashRouter,
@@ -14,9 +14,7 @@ const router = createBrowserRouter([
   {
     path: "/Personal-Portfolio",
     element: <App/>,
-  },
-  {path: "/aboutme",
-element:<AboutMe/>}
+  }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
